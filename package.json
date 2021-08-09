@@ -12,10 +12,12 @@
     "url": "https://github.com/Alligator/summary-reporter/issues"
   },
   "main": "dist/index.js",
-  "files": ["dist/index.js"],
+  "files": [
+    "dist/index.js"
+  ],
   "scripts": {
     "build": "tsc",
-    "version": "npm run build && git add -A dist"
+    "version": "npm run build"
   },
   "devDependencies": {
     "typescript": "^4.3.5",
